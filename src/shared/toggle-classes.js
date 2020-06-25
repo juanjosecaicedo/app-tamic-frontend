@@ -1,0 +1,1 @@
+export default function toggleClasses(e,s,o){const t=s.indexOf(e);s.slice(0,t).map(e=>document.body.classList.remove(e)),document.body.classList.toggle(e,o)}
